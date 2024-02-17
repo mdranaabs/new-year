@@ -1,0 +1,406 @@
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-weight: 900
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    width: 85%;
+    margin: auto;
+  }
+
+  /* banner section */
+  .banner{
+    background-image: url(../images/banner.png);
+    color: #fff;
+    text-align: center;
+    height: 88vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #000000b8;
+    background-blend-mode: overlay;
+    margin-top: 35px;
+  }
+  .banner p{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    margin-bottom: 20px;
+  }
+  .banner h2{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    margin-top: 0;
+  }
+
+  /* off section */
+  .off{
+    text-align: center;
+   }
+   .off h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    margin-bottom: 20px;
+}
+   .off p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+    margin: 0;
+}
+   .off h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(7, 2, 17);
+    margin-top: 10px;
+}
+   .off img {
+    width: 550px;
+}
+
+/* Welcome section */
+.welcome{
+    background-image: url(../images/Vectorrr.png);
+    color: #fff;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0 60px;
+    box-shadow: 200px 0px 400px 64px rgba(0,0,0,1) inset;
+    -webkit-box-shadow: 200px 0px 400px 64px rgba(0,0,0,1) inset;
+    -moz-box-shadow: 200px 0px 400px 64px rgba(0,0,0,1) inset;
+    margin-top: 70px;
+}
+.welcome h2 {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Merriweather, serif;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.welcome p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.welcome a{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+.welcome-image img{
+    width: 250px;
+}
+
+/* Event section */
+.event{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-top: 70px;
+    text-align: center;
+    padding: 30px;
+}
+.event p{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.event span{
+    color: rgb(255, 0, 0);
+}
+.event button{
+    margin-top: 25px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.event button:hover{
+    background-color: rgb(215, 9, 9);
+    cursor: pointer;
+}
+
+/* Offer section */
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 70px;
+}
+.offer .mid-col img{
+    padding: 20px;
+    border: 10px solid red;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.left-col h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+    margin-bottom: 14px;
+}
+.left-col h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0;
+}
+.left-col p {
+    max-width: 400px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 14px;
+}
+.right-col h3 {
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    margin-bottom: 0;
+}
+.right-col p {
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    max-width: 400px;
+    margin-top: 14px;
+}
+.mid-col {
+    margin: 0 34px;
+}
+
+/* Holiday section */
+.holiday {
+    margin-top: 95px;
+}
+.holiday-content {
+    text-align: center;
+}
+.image-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-image img{
+    width: 100%;
+}
+.left-image img {
+    width: 600px;
+    margin-bottom: -258px;
+    position: relative;
+}
+img.abs {
+    position: absolute;
+    right: 309px;
+    top: 80px;
+    width: 225px;
+}
+.right-image {
+    position: relative;
+}
+.bottom-image {
+    margin-top: -4px;
+}
+.holiday-content h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.holiday-content h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 60px;
+    margin: 0;
+}
+.holiday-content h2 span {
+    color: rgb(255, 0, 0);
+}
+.holiday-content p {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 45px;
+}
+.portfolio-content{
+    margin-top: 70px;
+}
+.portfolio-content h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+    margin-bottom: 14px;
+}
+.portfolio-content h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0;
+}
+.portfolio-content p {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 14px;
+    max-width: 715px;
+}
+.portfolio-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 20px;
+}
+.portfolio-image img {
+    width: 100%;
+}
+
+/* Newsletter section */
+.newsletter{
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.newsletter-content h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0;
+}
+.newsletter-content p {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 14px;
+    max-width: 715px;
+}
+.newsletter-content img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.newsletter-form input[type="text"] {
+    padding: 20px;
+    width: 300px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+}
+.newsletter-form input[type="submit"] {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    padding: 15px 44px;
+    font-size: 20px;
+    color: #fff;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.newsletter-form form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer section */
+footer{
+    background-color: rgb(7, 2, 17);
+    color: #fff;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 8px;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.social-icon img {
+    width: 50px;
+}
+.middle {
+    padding: 60px 0;
+    border-top: 1px solid #ffffff26;
+    border-bottom: 1px solid #ffffff26;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.bottom p {
+    margin-bottom: 0;
+}
+.top-left p {
+    line-height: 33px;
+}
